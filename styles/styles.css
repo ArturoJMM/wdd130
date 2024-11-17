@@ -35,6 +35,10 @@ aside {
     font-family: "Calibri";
 }
 
+p {
+    padding: 0;
+}
+
 aside img {
     width: 500px;
     height: auto;
