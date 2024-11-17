@@ -1,6 +1,8 @@
 nav {
-    background-color: darkblue  ;
-    padding: 10px;
+    background-color: rgb(11, 39, 77) ;
+    padding: 1px;
+    font-family: "calibri";
+    max-width: 850px;
 }
 
 nav a {
@@ -13,7 +15,32 @@ h1 {
     color: darkblue;
 }
 
-img {
+main {
+    max-width: 800px;
+}
+
+main p {
+    font-size: large;
+    text-align: justify;
+}
+aside {
+    width: 750px;
+    margin: 1rem;
+    border: 1px solid rgba(11, 55, 66, 0.2);
+    padding: 1rem;
+    background-color: rgba(11, 55, 66);
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+    font-family: "Calibri";
+}
+
+aside img {
+    width: 500px;
+    height: auto;
+    box-shadow: 0 0 30px aliceblue;
+}
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -21,6 +48,10 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 10px;
+footer {
+    margin-top: 10px;
+    border-top: 2px solid rgba(11, 55, 66);
+    text-align: center;
+    padding-top: 2px;
+    font-style: italic;
 }
