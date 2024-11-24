@@ -128,6 +128,12 @@ ul {
     padding-left: 20px;
     margin: 20px;
 }
+.section1 {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
 
 .title {
     font-family: var(--heading-font);
@@ -139,11 +145,12 @@ ul {
     padding: 30px;
 }
 
+
+
 .history {
     font-family: var(--text-font);
     color: var(--font-color); 
     font-size: var(--font-size-medium); 
-    max-width: 1200px; 
     text-align: justify;
     padding: 10px;
 }
@@ -166,7 +173,7 @@ h4 {
     padding-bottom: 20px;
 }
 
-.footer {
+footer {
     text-align: center;
     padding-top: 2px;
     border-top: 1px solid var(--accent1-color);
