@@ -99,7 +99,7 @@ ul {
     position: absolute;
     top: 40%;
     background-color: var(--article-background);
-    max-width: 850px;
+    max-width: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
