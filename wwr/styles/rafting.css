@@ -38,7 +38,7 @@
 
 .mainTitle {
     font-size: 3rem;
-    font-family: var(--heading-font);
+    font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -109,7 +109,7 @@ a {
 }
 
 .h4 {
-    font-family: var(--text-font);
+    font-family: 'Inter', sans-serif;
     color: var(--primary-color); 
     font-size: var(--font-size-larger);
     font-weight: 400; 
