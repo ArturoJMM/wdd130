@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>
+            WDD 130 | Arturo Mendez | HTML Form - User Poll</h1>
+
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname"><br><br>
+                <label for="useremail">Email:</label><br>
+                <input type="email" id="useremail" name="useremail">
+
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite browser?</label>
+                <select name="browser" id="browser">
+                    <option value="Chrome">Google Chrome</option>
+                    <option value="Edge">Microsoft Edge</option>
+                    <option value="Firefox">Mozilla Firefox</option>
+                </select><br>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet"><br>
+                <label for="feedback">List the places you have lived:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Aragua Venezuela, Lima Peru, Cali Colombia"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy;2024 | HTML Form - User Poll Activity | Arturo Mendez</p>
+    </footer>
+    
+</body>
+</html>
