@@ -84,7 +84,6 @@ a {
 .title1 {
     font-family: var(--heading-font);
     color: #141313;
-    
     display: block;
     position: absolute;
     top: 50px;
@@ -353,11 +352,12 @@ footer {
 .button-support {
     position: absolute;
     top: 65%;
-    right:10%;
-    width: 200px;
+    right:5%;
+    width: 300px;
     height: 50px;
     font-family: 'Inter', sans-serif;
     font-weight: var(--font-weight-bold);
+    font-size: large;
     background-color: black;
     color: aliceblue;
     border-radius: 0.5rem;
