@@ -83,7 +83,8 @@ a {
 
 .title1 {
     font-family: var(--heading-font);
-    color: var(--font-color);
+    color: #141313;
+    
     display: block;
     position: absolute;
     top: 50px;
@@ -145,9 +146,8 @@ a {
 
 .title {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: #856a04;
     font-size: var(--font-size-larger);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 2);;
     grid-column: 1/4;
     text-align: center;
     padding: 30px;
@@ -188,9 +188,8 @@ a {
 
 .title2 {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: #856a04;
     font-size: var(--font-size-larger);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 2);;
     grid-column: 1/6;
     text-align: center;
     padding: 30px;
@@ -239,4 +238,319 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
+}
+
+/* CONTACT PAGE*/
+
+.hero2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.article2 {
+    position: absolute;
+    top: 25%;
+    background-color: var(--article-background);
+    max-width: 1200px;
+    height: 250px;
+    border-radius: 1rem;
+       
+}
+
+.contact-h2 {
+    font-family: 'Inter', sans-serif;
+    color: var(--primary-color); 
+    font-size: var(--font-size-larger);
+    font-weight: 400; 
+    justify-self: center;
+    padding-top: 10px;
+}
+
+.contact-pre {
+    font-family: var(--text-font);
+    color: var(--primary-color); 
+    font-size: 1.5rem; 
+    width: 750px; 
+    text-align: center;
+    padding-top: 50px;
+}
+
+.hero3 {
+    position: absolute;
+    top: 65%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 2fr 80px 2fr;
+}
+
+.sales {
+    grid-column: 1;
+    border: 2px solid grey;
+    background-color: whitesmoke;
+    max-width: 400px;
+    height: 250px;
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+}
+
+.TalkToSales {
+    font-family: 'Inter', sans-serif;
+    grid-column: 1/5;
+    text-align: center;
+    padding: 20px;
+}
+
+.history3 {
+    font-family: 'Inter', sans-serif;
+    grid-column: 1/5;
+    text-align: center;
+    padding: 20px;
+}   
+
+.phone {
+    width: 45px;
+    grid-column: 2;
+}
+
+.phoneNumber {
+    font-family: 'Inter', sans-serif;
+    font-size: larger;
+    grid-column: 3/5;
+    padding-top: 10px;
+}
+
+.support {
+    grid-column: 3;
+    border: 2px solid grey;
+    background-color: whitesmoke;
+    max-width: 400px;
+    height: 250px;
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+.contact-support {
+    font-family: 'Inter', sans-serif;
+    grid-column: 1/5;
+    text-align: center;
+    padding: 20px;
+}
+
+.history4 {
+    font-family: 'Inter', sans-serif;
+    grid-column: 1/5;
+    text-align: center;
+    padding: 20px;
+}
+
+.button-support {
+    position: absolute;
+    top: 65%;
+    right:10%;
+    width: 200px;
+    height: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--font-weight-bold);
+    background-color: black;
+    color: aliceblue;
+    border-radius: 0.5rem;
+}
+
+/* COMPANY INFO*/
+
+.Company-Info {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.title3 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    font-size: var(--font-size-medium);
+    text-align: left;
+    padding-top: 20px;
+    font-style: oblique;
+    text-decoration: underline;
+   
+}
+
+.general-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    font-family: var(--text-font);
+    color: black;
+    font-size: var(--font-size-medium);
+    text-align: left;
+}
+
+.map {
+    border: 0;
+}
+
+.staff {
+    
+    margin: 1rem auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.figStaff img {
+    width: 100%;
+    height: 50%;
+}
+
+.fig {
+    position: absolute;
+    bottom: 10px; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff; 
+    padding: 10px;
+    font-family: var(--text-font);
+    font-size: var(--font-size-medium);
+}
+
+/* CONTACT FORM*/
+
+.title4 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    font-size: var(--font-size-medium);
+    text-align: center;
+}
+
+.form-div {
+    margin: 1rem auto;
+    max-width: 1200px;
+}
+
+.field1 {
+    font-family: var(--heading-font);
+    font-size: larger;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background-color: rgb(186, 230, 245);
+    border-color: rgb(186, 230, 245);
+}
+
+.label1 {
+    font-family: var(--heading-font);
+    color: black;
+    font-weight: bolder;
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+
+.label2 {
+    font-family: var(--heading-font);
+    color: black;
+    font-weight: bolder;
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+
+.input1 {
+    font-family: var(--text-font);
+    color: black;
+    font-size: var(--font-size-medium);
+    grid-column: 1;
+    grid-row: 2;
+    height: 40px;
+    border-radius: 0.5rem;
+    background-color: whitesmoke;
+    width: 500px;
+    padding-left: 10px;
+}
+
+.input2 {
+    font-family: var(--text-font);
+    color: black;
+    font-size: var(--font-size-medium);
+    grid-column: 2;
+    grid-row: 2;
+    height: 40px;
+    border-radius: 0.5rem;
+    background-color: whitesmoke;
+    width: 500px;
+    padding-left: 10px;
+}
+
+.field2 {
+    font-family: var(--heading-font);
+    font-size: larger;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+    background-color: rgb(186, 230, 245);
+    border-color: rgb(186, 230, 245);
+}
+
+.message {
+    font-family: var(--heading-font);
+    font-size: larger;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(186, 230, 245);
+    border-color: rgb(186, 230, 245);
+}
+
+textarea {
+    width: 70%;
+    height: 300px;
+    padding: 20px;
+    font-family: var(--text-font);
+    font-size: var(--font-size-medium);
+    color: black;
+}
+
+.field3 {
+    font-family: var(--heading-font);
+    font-size: var(--font-size-medium);
+    padding: 20px;
+    background-color: rgb(186, 230, 245);
+    border-color: rgb(186, 230, 245);
+}
+
+.input-checkbox {
+    width: 60px; 
+    height: 20px; 
+    transform: scale(1.3); 
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(186, 230, 245);
+    border-color: rgb(186, 230, 245);
+}
+
+.button {
+    font-family: var(--heading-font);
+    font-weight: var(--font-weight-bold);
+    width: 120px;
+    height: 30px;
+    transform: scale(1.9);
 }
