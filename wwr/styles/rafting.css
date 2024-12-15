@@ -5,7 +5,7 @@
     --accent1-color: #4B5354;
     --accent2-color: #EBC431;
     --font-color: #2E3334;
-    --titles-background: rgba(235, 196, 49, 0.4);
+    --titles-background: rgba(235, 196, 49, 0.7);
     --article-background: rgba(3, 16, 61, 0.7);
     /* font variable Labels */
     --heading-font: 'Raleway', sans-serif;
@@ -199,13 +199,14 @@ figure {
     position: relative;
 }
 
-figure img {
+.about-fig img {
     width: 100%;
     height: 150px;
     display: block;
 }
 
 figcaption {
+    
     position: absolute;
     bottom: 10px; 
     background-color: rgba(0, 0, 0, 0.7); 
@@ -402,7 +403,6 @@ footer {
 }
 
 .staff {
-    
     margin: 1rem auto;
     max-width: 1200px;
     display: flex;
@@ -538,7 +538,7 @@ textarea {
     transform: scale(1.3); 
 }
 
-.button-box {
+.button-box, .subscribe-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -553,4 +553,100 @@ textarea {
     width: 120px;
     height: 30px;
     transform: scale(1.9);
+}
+/* HOME PAGE*/
+
+.title-home {
+    font-family: var(--heading-font);
+    font-size: var(--font-size-larger);
+    color: #141313;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: var(--titles-background);
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+.trip-btn {
+    position: absolute;
+    top: 70%;
+}
+
+.btn-trip {
+    font-family: var(--heading-font);
+    font-weight: var(--font-weight-bold);
+    background-color: var(--accent2-color);
+    width: 150px;
+    height: 40px;
+    transform: scale(1.9);
+    border-radius: 5rem;
+}
+
+.Experiences {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto auto;
+    align-items:flex-start;
+    justify-items: center;
+    margin: 1rem auto;
+    max-width: 1200px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.exp-img1, .exp-img2, .exp-img3 {
+    width: 300px;
+    height: auto;
+    border-style: ridge;
+    border-color: var(--accent2-color);
+    justify-self: center;
+}
+
+.exp-icon1, .exp-icon2, .exp-icon3 {
+    width: 80px;
+    height: auto;
+}
+
+.txt-exp {
+    font-family: var(--text-font);
+    font-size: var(--font-size-medium);
+}
+
+.home-intro {
+    background-color: var(--secondary-color);
+    height: 500px;
+}
+
+.intro-inside {
+    position: relative;
+    margin: 1rem auto;
+    max-width: 1200px;
+}
+
+.hero4 {
+    position: absolute;
+    top: 50px;
+    border-style: groove;
+      
+}
+
+.intro-txt {
+    position: absolute;
+    background-color: #2E3334;
+    text-align: justify;
+    color: aliceblue;
+    font-family: var(--text-font);
+    font-size: var(--font-size-medium);
+    width: 700px;
+    padding: 1rem;
+    top: 190px;
+    right: 0;   
+}
+
+.subscribe-box {
+    grid-column: 1/3;
+    padding-top: 2rem;
 }
